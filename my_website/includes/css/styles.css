@@ -5,7 +5,7 @@ My Custom CSS
 
 Author:  Brad Hussey
 Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+Notes:   Hand coded for Udemy.com
 
 */
 
@@ -15,137 +15,156 @@ Notes:	 Hand coded for Udemy.com
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
-body{
-   color: #671111;
+body {
+    color: #671111;
+    text-align: justify;
 }
+
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   #searchInput{
-   	width: 200px;
-   }
+
+#searchInput {
+    width: 200px;
+}
 
 .navbar-brand {
-   padding: 20px 15px;
+    padding: 20px 15px;
 }
-.navbar-brand img{
-   height: 22px;
-   width: 108px;
-} 
 
- .dropdown-toggle{
-   color: red;
-   font-size: 19px;
-   
- }
- .navbar{
-   background-color: black;
- }
- .navbar-nav li a{
-   color: red;
-   font-size: 19px;
- }
-.dropdown-menu li a{
-   color: #166917;
-   font-size: 17px;
+.navbar-brand img {
+    height: 22px;
+    width: 108px;
 }
-   
+
+.dropdown-toggle {
+    color: red;
+    font-size: 19px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-nav li a {
+    color: red;
+    font-size: 19px;
+}
+
+.dropdown-menu li a {
+    color: #166917;
+    font-size: 17px;
+}
+
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-   #imagecarousel {
-   margin-top: 100px;
+
+#imagecarousel {
+    margin-top: 100px;
 }
 
 .carousel-caption {
-   font-size: 24px;
+    font-size: 24px;
 }
 
 .carousel-caption h4 {
-   font-size: 32px;
+    font-size: 32px;
 }
 
-#myCarousel .item { height: 490px; }
+#myCarousel .item {
+    height: 490px;
+}
 
 #slide1 {
-   background: url('../../images/audi1_large.jpg') top center no-repeat;
-   height: 600px;
-   width: 1170px;
+    background: url('../../images/audi1_large.jpg') top center no-repeat;
+    height: 600px;
+    width: 1170px;
 }
 
 #slide2 {
-   background: url('../../images/audi2_large.jpg') top center no-repeat;
+    background: url('../../images/audi2_large.jpg') top center no-repeat;
 }
 
 #slide3 {
-   background: url('../../images/audi3_large.jpg') top center no-repeat;
+    background: url('../../images/audi3_large.jpg') top center no-repeat;
 }
+
 .well {
-   margin: 20px 0;
-   border: 2px solid #096abd;
-   background-color: #ffffff;
-}
-.page-header h1{
-   font-size: 27px;
-  }
-.page-header small{
-   font-size: 18px;
-}
-.page-header{
-   border-bottom: 1px solid #671111;
+    margin: 20px 0;
+    border: 2px solid #096abd;
+    background-color: #ffffff;
 }
 
-.col-12 h2{
-   font-size: 26px;
-}
-.col-12 p{
-   font-size: 18px;
+.page-header h1 {
+    font-size: 27px;
 }
 
-.list-group-item{
-   border: 1.4px solid #358cd8;
+.page-header small {
+    font-size: 18px;
 }
-.panel-heading{
-   background-color: black;
+
+.page-header {
+    border-bottom: 1px solid #671111;
 }
-.panel-title{
-   color: white;
-   font-family: monospace;
+
+.col-12 h2 {
+    font-size: 26px;
 }
-.panel{
-   border: 1px solid #357ebd;
-   
+
+.col-12 p {
+    font-size: 18px;
+}
+
+.list-group-item {
+    border: 1.4px solid #358cd8;
+}
+.btn-warning{
+  background-color: black;
+}
+
+.panel-heading {
+    background-color: black;
+}
+
+.panel-title {
+    color: white;
+    font-family: monospace;
+}
+
+.panel {
+    border: 1px solid #357ebd;
 }
 
 
-#new_features{
-   color: #0f518a;
-   margin-top: 2px;
-}
-#paragraph
-{
-   color: black;
-   margin-top: 10px;
+#new_features {
+    color: #0f518a;
+    margin-top: 2px;
 }
 
- #image_features{
-   /*margin-left: 5vh;*/
-   
-   margin-left: 70px;}
-.btn{
-      border:1px solid blue;
+#paragraph {
+    color: black;
+    margin-top: 10px;
+}
 
-   }
-   
+#image_features {}
 
-footer{
-   background: black;
+.btn {
+    border: 1px solid black;
+}
+#tab_para{
+    color: black;
+}
+
+
+footer {
+    background: black;
     color: #e5e5e5;
     font-size: 13px;
     /*padding: 20px; */
@@ -153,36 +172,45 @@ footer{
 }
 
 
-.context-text-centre{
-   text-align: center;
+.context-text-centre {
+    text-align: center;
 }
-.btn-group{
-   
-   
+
+.btn-group {
+
+
     margin-top: 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
-footer {
-   background: #333;
-   color: #eee;
-   font-size: 11px;
-   padding: 20px;
-   margin-top: 30px;
+/*footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+    margin-top: 30px;
 }
-.unstyled{
-   list-style: none;
-   padding: 0px;
+*/
+.unstyled {
+    list-style: none;
+    padding: 0px;
 }
 
-#image_audi{
-   width: 500px;
-   margin-left: 400px;
+#image_audi {
+    width: 340px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    margin-top: 100px;
+    /* margin-left: 400px; */
 }
- /*.unstyled li{
+
+
+/*.unstyled li{
    list-style: none;
    padding: 0px;
 
@@ -190,85 +218,53 @@ footer {
 .col-sm-3 h6{
    padding: 0px;
 }*/
+
+
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
 
 
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
+
 /* Portrait & landscape phone */
 
-
-.tabbable img.thumbnail {
-   margin: 0 20px 10px 0;
-}
-
-.thumbnails {
-   margin: 20px 0;
-}
-
-.thumbnail {
-   position: relative;
-}
-
-.thumbnail h3 {
-   font-size: 16px;
-   margin: 0 0 10px;
-   line-height: 20px;
-}
-
-.thumbnail .price {
-   font-size: 22px;
-   position: absolute;
-   top: -10px;
-   right: -10px;
-   padding: 10px;
-}
-
-.thumbnail .price sup {
-   font-weight: normal;
-   font-size: 12px;
-}
-
-.thumbnail span.glyphicon {
-   margin-right: 5px;
-}
-
-
-
 @media (max-width: 480px) {
-	.carousel-caption {
-      font-size: 16px;
-   }
-   
-   .carousel-caption h4 {
-      font-size: 22px;
-   }
+    .carousel-caption {
+        font-size: 16px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 22px;
+    }
 }
+
 
 /* Landscape phone to portrait tablet */
+
 @media (max-width: 728px) {
-   #myCarousel .item { height: 310px; }
-   
-   .carousel-caption {
-      font-size: 16px;
-      margin-bottom: 10px;
-   }
-   
-   .carousel-caption h4 {
-      font-size: 22px;
-   }
-	
+    #myCarousel .item {
+        height: 310px;
+    }
+
+    .carousel-caption {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 22px;
+    }
 }
 
+
 /* Large desktop */
-@media (min-width: 1200px) {
-	
-}
+
+@media (min-width: 1200px) {}
+
 .tabbable img.thumbnail {
-   margin: 0 20px 10px 0;
+    margin: 0 20px 10px 0;
 }
